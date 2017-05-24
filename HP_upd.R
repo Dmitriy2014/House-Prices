@@ -46,7 +46,7 @@ train %>% ggplot(aes(x = MSZoning, y = SalePrice)) +
             theme(legend.position="top", 
                   axis.text=element_text(size = 6)) +
             geom_point(aes(color = YearBuilt), alpha = 0.5, size = 1.5, 
-                       position = position_jitter(width = 0.25, height = 0)) + 
+                           position = position_jitter(width = 0.25, height = 0)) + 
             stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
                          geom = "crossbar", width = 0.5) + # adding madian
             scale_y_continuous(labels = comma)
