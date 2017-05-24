@@ -6,11 +6,11 @@
 
 #### Data preparation ####
 
-### Load and preprocess the data----
-
 library(dplyr)
 library(tidyr)
 library(Amelia)
+
+### Load and preprocess the data----
 
 getwd()
 setwd('C:\\Users\\user\\Documents\\R projects\\Kaggle\\House Prices')
